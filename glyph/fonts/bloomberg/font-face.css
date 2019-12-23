@@ -1,0 +1,215 @@
+
+@font-face {
+    font-family: 'BWHaasGrotesk-56Italic-Web';
+    font-display: swap;
+    
+    src: url('BWHaasGrotesk-56Italic-Web-39c99fc394.eot');
+    src: local('?'),
+         url('BWHaasGrotesk-56Italic-Web-669253244d.woff2') format('woff2'),
+         url('BWHaasGrotesk-56Italic-Web-296d0c8182.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BW Haas Text Mono A-55 Roman';
+    font-display: swap;
+    
+    
+    src: url('BW%20Haas%20Text%20Mono%20A-55%20Roman-9fa796a3f4.woff2') format('woff2'),
+         url('BW%20Haas%20Text%20Mono%20A-55%20Roman-33b3777385.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'AvenirNextPForBBG-Demi';
+    font-display: fallback;
+    
+    
+    src: url('AvenirNextPForBBG-Demi-b9b4abf0ea.woff2') format('woff2'),
+         url('AvenirNextPForBBG-Demi-7459932d1d.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'supriasans-regular-web';
+    font-display: swap;
+    
+    src: url('supriasans-regular-web-7196e2d81a.eot');
+    src: local('?'),
+         url('supriasans-regular-web-8179193c28.woff') format('woff'),
+         url('supriasans-regular-web-2389ae0555.svg') format('svg'),
+         url('supriasans-regular-web-5c4bb18965.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'supriasans-black-web';
+    font-display: swap;
+    
+    src: url('supriasans-black-web-e59f4ddcd1.eot');
+    src: local('?'),
+         url('supriasans-black-web-c34158ff5a.woff') format('woff'),
+         url('supriasans-black-web-934c9085da.svg') format('svg'),
+         url('supriasans-black-web-03ac0bb9fc.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'supriasans-bold-web';
+    font-display: swap;
+    
+    src: url('supriasans-bold-web-55dc96818d.eot');
+    src: local('?'),
+         url('supriasans-bold-web-fb31bd8630.woff') format('woff'),
+         url('supriasans-bold-web-2a5a08d152.svg') format('svg'),
+         url('supriasans-bold-web-2300fdc916.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PublicoText-Roman-Web';
+    font-display: swap;
+    
+    
+    src: url('PublicoText-Roman-Web-bfa063ee27.woff2') format('woff2'),
+         url('PublicoText-Roman-Web-e953eb7239.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PublicoText-Italic-Web';
+    font-display: swap;
+    
+    
+    src: url('PublicoText-Italic-Web-b04a2274cf.woff2') format('woff2'),
+         url('PublicoText-Italic-Web-ba4fbc1a59.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PublicoText-Bold-Web';
+    font-display: swap;
+    
+    
+    src: url('PublicoText-Bold-Web-3c5266a48e.woff2') format('woff2'),
+         url('PublicoText-Bold-Web-8851dd6a6e.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Bloomberg Logotypes-Medium';
+    font-display: block;
+    
+    
+    src: url('Bloomberg%20Logotypes-Medium-0e53877b78.woff2') format('woff2'),
+         url('Bloomberg%20Logotypes-Medium-4f4134c199.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BWHaasGrotesk-95Black-Web';
+    font-display: fallback;
+    
+    
+    src: url('BWHaasGrotesk-95Black-Web-3629d1569b.woff2') format('woff2'),
+         url('BWHaasGrotesk-95Black-Web-37847ad026.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BWHaasGrotesk-75Bold-Web';
+    font-display: fallback;
+    
+    
+    src: url('BWHaasGrotesk-75Bold-Web-de8c77cce2.woff2') format('woff2'),
+         url('BWHaasGrotesk-75Bold-Web-506363704e.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BWHaasGrotesk-55Roman-Web';
+    font-display: fallback;
+    
+    src: url('BWHaasGrotesk-55Roman-Web-7998fbcba8.eot');
+    src: local('?'),
+         url('BWHaasGrotesk-55Roman-Web-5cf5733cd9.woff2') format('woff2'),
+         url('BWHaasGrotesk-55Roman-Web-a1ea4fd367.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BWHaasGrotesk-55Roman-Display';
+    font-display: swap;
+    
+    src: url('BWHaasGrotesk-55Roman-Display-d81d422f93.eot');
+    src: local('?'),
+         url('BWHaasGrotesk-55Roman-Display-8d97adea00.woff2') format('woff2'),
+         url('BWHaasGrotesk-55Roman-Display-bd3153d4e7.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PublicoHeadline-Black-Web';
+    font-display: swap;
+    
+    src: url('PublicoHeadline-Black-Web-d1a1b3d673.eot');
+    src: local('?'),
+         url('PublicoHeadline-Black-Web-01df76cd27.woff2') format('woff2'),
+         url('PublicoHeadline-Black-Web-4e5abb92d5.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PublicoHeadline-Bold-Web';
+    font-display: swap;
+    
+    src: url('PublicoHeadline-Bold-Web-cec3a90fbb.eot');
+    src: local('?'),
+         url('PublicoHeadline-Bold-Web-e816328678.woff2') format('woff2'),
+         url('PublicoHeadline-Bold-Web-45a1792556.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PublicoHeadline-Light-Web';
+    font-display: swap;
+    
+    src: url('PublicoHeadline-Light-Web-b105d6d7cf.eot');
+    src: local('?'),
+         url('PublicoHeadline-Light-Web-ccd952af64.woff2') format('woff2'),
+         url('PublicoHeadline-Light-Web-3de2a07265.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PublicoHeadline-Roman-Web';
+    font-display: fallback;
+    
+    src: url('PublicoHeadline-Roman-Web-79c3e90570.eot');
+    src: local('?'),
+         url('PublicoHeadline-Roman-Web-8a145ed2f3.woff2') format('woff2'),
+         url('PublicoHeadline-Roman-Web-43d6fa2ad7.woff') format('woff');
+}
+@font-face {
+    font-family: 'Bloomberg';
+    font-display: block;
+    
+    src: url('Bloomberg-250afba92d.eot');
+    src: local('?'),
+         url('Bloomberg-048eeffe56.woff2') format('woff2'),
+         url('Bloomberg-5c2599d032.woff') format('woff'),
+         url('Bloomberg-0506a6c14c.svg') format('svg'),
+         url('Bloomberg-aa2f00257e.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AvenirNextPForBBG';
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+    
+    src: url('AvenirNextPForBBG-Regular-eb3bb1b816.woff2') format('woff2'),
+         url('AvenirNextPForBBG-Regular-093448f517.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'AvenirNextPForBBG';
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal;
+    
+    src: url('AvenirNextPForBBG-Demi-b9b4abf0ea.woff2') format('woff2'),
+         url('AvenirNextPForBBG-Demi-7459932d1d.woff') format('woff');
+}
+
+@font-face{
+    font-family:'Iconochive-Regular';
+    src:url('Iconochive-Regular.eot');
+    src:url('Iconochive-Regular.eot#iefix-ccsheb') format('embedded-opentype'),
+    url('Iconochive-Regular.woff') format('woff'),
+    url('Iconochive-Regular.ttf') format('truetype'),
+    url('Iconochive-Regular.svg#Iconochive-Regular') format('svg');
+    font-weight:normal;
+    font-style:normal}
