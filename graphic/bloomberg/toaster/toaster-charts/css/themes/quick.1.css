@@ -1,0 +1,1587 @@
+@font-face {
+  font-family: "SupriaSans";
+  font-style: normal;
+  font-weight: 300;
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/supriasans-light-web.ttf);
+}
+
+@font-face {
+  font-family: "SupriaSans";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/supriasans-regular-web.ttf);
+}
+
+@font-face {
+  font-family: "SupriaSans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/supriasans-bold-web.ttf);
+}
+
+@font-face {
+  font-family: "SupriaSans";
+  font-style: normal;
+  font-weight: 900;
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/supriasans-black-web.ttf);
+}
+
+@font-face {
+  font-family: "Founders Grotesk";
+  font-style: normal;
+  font-weight: 200;
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/FoundersGrotesk-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Founders Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/FoundersGrotesk-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Founders Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/FoundersGrotesk-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Founders Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/FoundersGrotesk-Semibold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Founders Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/FoundersGrotesk-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Berthold Akzidenz Grotesk Black";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/akzidgrostdsup-webfont.ttf);
+}
+
+@font-face {
+  font-family: "Berthold Akzidenz Grotesk Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/akzidgrostdsup-webfont.ttf);
+}
+
+@font-face {
+  font-family: "Berthold Akzidenz Grotesk Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/akzidgrostdbol-webfont.ttf);
+}
+
+@font-face {
+  font-family: "Berthold Akzidenz Grotesk SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/akzidgrostdmed-webfont.ttf);
+}
+
+@font-face {
+  font-family: "Berthold Akzidenz Grotesk";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/akzidgrostdreg-webfont.ttf);
+}
+
+@font-face {
+  font-family: "BloombergL Black";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/BloombergL-black.ttf);
+}
+
+@font-face {
+  font-family: "Arial Normal";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/Arial.ttf);
+}
+
+@font-face {
+  font-family: "Arial Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/Arial-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'BWHaasHead';
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/bwhaas/BWHaasHead-95Black.woff) format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BWHaasHead';
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/bwhaas/BWHaasHead-75Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BWHaasHead';
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/bwhaas/BWHaasHead-65Medium.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BWHaasHead';
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/bwhaas/BWHaasHead-55Roman.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BWHaasHead';
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/bwhaas/BWHaasHead-25XThin.woff) format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BWHaasText';
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/bwhaas/BWHaasText-75Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BWHaasTextFixed';
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/bwhaas/BWHaasGrotesk-55Fixed.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BWHaasTextFixed';
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/bwhaas/BWHaasGrotesk-65Fixed.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BWHaasText';
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/bwhaas/BWHaasText-65Medium.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BWHaasText';
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/bwhaas/BWHaasText-55Roman.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bloomberg Prop Unicode N";
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/bloomberg/Bloomberg-PropU_N.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Bloomberg Prop Unicode N";
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/bloomberg/Bloomberg-PropU_N-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Bloomberg Fixed Unicode N";
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/bloomberg/Bloomberg-FixedU_N.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-weight: normal;
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/hiragino-kaku-gothic-pro-w3.otf);
+  unicode-range: U+3000-303F, U+4E00-9FAF, U+3040-309F, U+30A0-30FF, U+FF00-FFEF;
+}
+
+@font-face {
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-weight: bold;
+  src: url(/gh/0nd1jyU39XQ/_/glyph/fonts/bloomberg/hiragino-kaku-gothic-pro-w6.otf);
+  unicode-range: U+3000-303F, U+4E00-9FAF, U+3040-309F, U+30A0-30FF, U+FF00-FFEF;
+}
+
+
+
+
+
+
+iframe {
+  display: block;
+  border: none;
+  background: #fff;
+  width: 100%;
+  height: 600px;
+}
+
+
+
+.chart {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.chart .tooltip-overlay {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.chart .viewport {
+  display: block;
+  position: relative;
+}
+
+.chart .viewport .canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.chart .quotes {
+  display: none;
+}
+
+.chart h1.title {
+  width: 100%;
+  margin: 0;
+}
+
+.chart h2.subtitle {
+  width: 100%;
+  margin: 0;
+}
+
+.chart .legend,
+.chart .pie-legend {
+  display: none;
+}
+
+.chart .series {
+  display: inline-block;
+  margin-right: 10px;
+  float: left;
+  white-space: normal;
+}
+
+.chart .series:last-child {
+  margin-bottom: 0;
+}
+
+.chart .clear-fix {
+  clear: both;
+  height: 0px;
+}
+
+.chart .swatch {
+  display: inline-block;
+  float: left;
+  width: 16px;
+  height: 16px;
+}
+
+.chart .horizontal-axis {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.chart .horizontal-axis .caption {
+  text-align: center;
+}
+
+.chart .footnote,
+.chart .source {
+  margin: 0;
+}
+
+.chart .vertical-axis {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.chart .vertical-axis .caption {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  -webkit-transform: rotate(-90deg);
+  -webkit-transform-origin: 0 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  width: 0;
+}
+
+.chart path, .chart line {
+  fill: none;
+  shape-rendering: crispEdges;
+}
+
+.chart .data path {
+  shape-rendering: auto;
+}
+
+.chart .label-line {
+  stroke-width: 1;
+  stroke: #000;
+  shape-rendering: auto;
+}
+
+.chart .label-circle {
+  fill: #000;
+}
+
+.chart .axis .domain {
+  stroke: #f00;
+}
+
+.chart .axis text {
+  font-size: 10px;
+}
+
+.chart .meta {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.chart .meta .pie .label-margin {
+  margin: 20px;
+}
+
+.chart .meta .pie .line-margin {
+  margin-bottom: 0px;
+}
+
+.chart .meta .canvas-margins {
+  margin: 20px 20px 20px 30px;
+}
+
+.chart .meta .small-break {
+  max-width: 600px;
+}
+
+.chart .meta .medium-break {
+  max-width: 1000px;
+}
+
+.chart .meta .thumbnail-break {
+  max-width: 260px;
+}
+
+.chart.without-titles .meta .canvas-margins {
+  margin-right: 2px;
+  margin-left: 0px;
+}
+
+.chart.variety-comparison .horizontal-axis, .chart.variety-table .horizontal-axis {
+  display: none;
+}
+
+.chart.variety-comparison .vertical-axis, .chart.variety-table .vertical-axis {
+  display: none;
+}
+
+
+.variety-pie .meta .canvas-margins {
+  margin: 20px;
+}
+
+.variety-pie .legend {
+  display: none !important;
+}
+
+.variety-pie .pie-legend.has-legend {
+  display: inline-block;
+}
+
+.variety-pie .axis .caption {
+  display: none !important;
+}
+
+
+.variety-comparison .gap,
+.variety-comparison .category {
+  display: inline-block;
+  float: left;
+}
+
+.variety-comparison .value {
+  white-space: nowrap;
+}
+
+.variety-comparison .bar-container {
+  position: relative;
+}
+
+.variety-comparison .bar {
+  position: absolute;
+  background: #CCCCCC;
+}
+
+.variety-comparison .category.latest .bar {
+  background: #00DC3C;
+}
+
+.variety-comparison .label-container .value {
+  font-family: "BWHaasText", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: #CCCCCC;
+}
+
+.variety-comparison .summary {
+  padding-bottom: 10px;
+  font-family: "BWHaasText", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-weight: normal;
+}
+
+.variety-comparison .summary .value {
+  font-size: 32px;
+}
+
+.variety-comparison .summary .description {
+  font-size: 14px;
+}
+
+.variety-comparison .label-container .description {
+  font-family: "BWHaasText", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #999999;
+}
+
+.variety-comparison .gap {
+  width: 10px;
+  height: 1px;
+}
+
+.variety-comparison.brkpt-large .label-container .value {
+  font-size: 42px;
+}
+
+.variety-comparison.brkpt-large .label-container .description {
+  font-size: 18px;
+}
+
+.variety-comparison.brkpt-large .gap {
+  width: 7px;
+  height: 1px;
+}
+
+.variety-comparison.brkpt-large .summary .value {
+  font-size: 42px;
+}
+
+.variety-comparison.brkpt-large .summary .description {
+  font-size: 18px;
+}
+
+.variety-comparison .category.positive .label-container .value,
+.variety-comparison .category.latest .label-container .value {
+  color: #00DC3C;
+}
+
+.variety-comparison .category.negative .label-container .value {
+  color: #FF433D;
+}
+
+.variety-comparison.with-title .titles-top {
+  padding-bottom: 10px;
+}
+
+
+.tip-contents {
+  line-height: 1.2;
+  font-family: "BWHaasText", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  font-size: 12px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  border-radius: 2px;
+  pointer-events: none;
+  padding: 6px;
+  width: 100%;
+  white-space: nowrap;
+}
+
+
+.nub {
+  fill: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width: 9px;
+  height: 9px;
+}
+
+
+.theme-quick {
+  background: white;
+  color: #000000;
+}
+
+.theme-quick .margin-top {
+  height: 20px;
+}
+
+.theme-quick .margin-bottom {
+  height: 20px;
+}
+
+.theme-quick .viewport {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.theme-quick .titles-top {
+  padding-top: 20px;
+}
+
+.theme-quick h1.title {
+  line-height: 24px;
+}
+
+.theme-quick.with-title h1.title {
+  padding: 0px 20px 0px 20px;
+}
+
+.theme-quick h2.subtitle {
+  line-height: 19px;
+}
+
+.theme-quick.with-subtitle h2.subtitle {
+  padding: 0px 20px 0px 20px;
+}
+
+.theme-quick .legend {
+  padding: 10px 20px 0px 20px;
+}
+
+.theme-quick .legend .series {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.theme-quick .legend .swatch {
+  margin-right: 5px;
+}
+
+.theme-quick.with-footnote .footnote, .theme-quick.with-source .source {
+  padding: 15px 10px 0px 20px;
+}
+
+.theme-quick.with-source.with-footnote.with-source .footnote {
+  padding-top: 0px;
+}
+
+.theme-quick.variety-comparison.with-legend .legend.top, .theme-quick.variety-comparison.with-legend .legend, .theme-quick.variety-table.with-legend .legend.top, .theme-quick.variety-table.with-legend .legend {
+  display: none;
+}
+
+.theme-quick.without-titles.with-title h1.title, .theme-quick.without-titles.with-subtitle h2.subtitle {
+  display: none;
+}
+
+.theme-quick.without-titles.with-footnote .footnote, .theme-quick.without-titles.with-source .source {
+  display: none;
+}
+
+.theme-quick.without-titles.with-footnote .titles-bottom, .theme-quick.without-titles.with-source .titles-bottom {
+  margin-top: 0px !important;
+}
+
+.theme-quick.without-titles.without-titles .titles-bottom {
+  display: none;
+  height: 0px;
+}
+
+.theme-quick.without-titles.thumbnail .viewport {
+  margin: 0px;
+}
+
+.theme-quick.without-titles.thumbnail .titles-top,
+.theme-quick.without-titles.thumbnail .titles-bottom {
+  display: none;
+  height: 0px;
+  padding: 0px !important;
+}
+
+.theme-quick.without-titles.thumbnail .vertical-axis {
+  display: none;
+}
+
+.theme-quick.without-titles.thumbnail .horizontal-axis {
+  display: none;
+}
+
+.theme-quick.variety-line .series-1 .swatch {
+  fill: #00b9e7;
+  background: #00b9e7;
+}
+
+.theme-quick.variety-line .annotation-point.series-1 {
+  fill: #00b9e7;
+}
+
+.theme-quick.variety-line .series-2 .swatch {
+  fill: #aaaab6;
+  background: #aaaab6;
+}
+
+.theme-quick.variety-line .annotation-point.series-2 {
+  fill: #aaaab6;
+}
+
+.theme-quick.variety-line .series-3 .swatch {
+  fill: #4e4e5c;
+  background: #4e4e5c;
+}
+
+.theme-quick.variety-line .annotation-point.series-3 {
+  fill: #4e4e5c;
+}
+
+.theme-quick.variety-line .series-4 .swatch {
+  fill: #0024ba;
+  background: #0024ba;
+}
+
+.theme-quick.variety-line .annotation-point.series-4 {
+  fill: #0024ba;
+}
+
+.theme-quick.variety-line .series-5 .swatch {
+  fill: #36cc60;
+  background: #36cc60;
+}
+
+.theme-quick.variety-line .annotation-point.series-5 {
+  fill: #36cc60;
+}
+
+.theme-quick.variety-stackedHbar .series-1 .swatch, .theme-quick.variety-stackedVbar .series-1 .swatch, .theme-quick.variety-bar .series-1 .swatch, .theme-quick.variety-hbar .series-1 .swatch {
+  fill: #00b9e7;
+  background: #00b9e7;
+}
+
+.theme-quick.variety-stackedVbar .annotation-point.series-1, .theme-quick.variety-stackedHbar .annotation-point.series-1, .theme-quick.variety-bar .annotation-point.series-1, .theme-quick.variety-hbar .annotation-point.series-1 {
+  fill: #00b9e7;
+}
+
+.theme-quick.variety-stackedHbar .layer.sbar-series-1 rect, .theme-quick.variety-stackedVbar .layer.sbar-series-1 rect {
+  fill: #00b9e7;
+}
+
+.theme-quick.variety-stackedHbar .series-2 .swatch, .theme-quick.variety-stackedVbar .series-2 .swatch, .theme-quick.variety-bar .series-2 .swatch, .theme-quick.variety-hbar .series-2 .swatch {
+  fill: #aaaab6;
+  background: #aaaab6;
+}
+
+.theme-quick.variety-stackedVbar .annotation-point.series-2, .theme-quick.variety-stackedHbar .annotation-point.series-2, .theme-quick.variety-bar .annotation-point.series-2, .theme-quick.variety-hbar .annotation-point.series-2 {
+  fill: #aaaab6;
+}
+
+.theme-quick.variety-stackedHbar .layer.sbar-series-2 rect, .theme-quick.variety-stackedVbar .layer.sbar-series-2 rect {
+  fill: #aaaab6;
+}
+
+.theme-quick.variety-stackedHbar .series-3 .swatch, .theme-quick.variety-stackedVbar .series-3 .swatch, .theme-quick.variety-bar .series-3 .swatch, .theme-quick.variety-hbar .series-3 .swatch {
+  fill: #4e4e5c;
+  background: #4e4e5c;
+}
+
+.theme-quick.variety-stackedVbar .annotation-point.series-3, .theme-quick.variety-stackedHbar .annotation-point.series-3, .theme-quick.variety-bar .annotation-point.series-3, .theme-quick.variety-hbar .annotation-point.series-3 {
+  fill: #4e4e5c;
+}
+
+.theme-quick.variety-stackedHbar .layer.sbar-series-3 rect, .theme-quick.variety-stackedVbar .layer.sbar-series-3 rect {
+  fill: #4e4e5c;
+}
+
+.theme-quick.variety-stackedHbar .series-4 .swatch, .theme-quick.variety-stackedVbar .series-4 .swatch, .theme-quick.variety-bar .series-4 .swatch, .theme-quick.variety-hbar .series-4 .swatch {
+  fill: #0024ba;
+  background: #0024ba;
+}
+
+.theme-quick.variety-stackedVbar .annotation-point.series-4, .theme-quick.variety-stackedHbar .annotation-point.series-4, .theme-quick.variety-bar .annotation-point.series-4, .theme-quick.variety-hbar .annotation-point.series-4 {
+  fill: #0024ba;
+}
+
+.theme-quick.variety-stackedHbar .layer.sbar-series-4 rect, .theme-quick.variety-stackedVbar .layer.sbar-series-4 rect {
+  fill: #0024ba;
+}
+
+.theme-quick.variety-stackedHbar .series-5 .swatch, .theme-quick.variety-stackedVbar .series-5 .swatch, .theme-quick.variety-bar .series-5 .swatch, .theme-quick.variety-hbar .series-5 .swatch {
+  fill: #36cc60;
+  background: #36cc60;
+}
+
+.theme-quick.variety-stackedVbar .annotation-point.series-5, .theme-quick.variety-stackedHbar .annotation-point.series-5, .theme-quick.variety-bar .annotation-point.series-5, .theme-quick.variety-hbar .annotation-point.series-5 {
+  fill: #36cc60;
+}
+
+.theme-quick.variety-stackedHbar .layer.sbar-series-5 rect, .theme-quick.variety-stackedVbar .layer.sbar-series-5 rect {
+  fill: #36cc60;
+}
+
+.theme-quick .pie-legend .series-1 .swatch {
+  fill: #00b9e7;
+  background: #00b9e7;
+}
+
+.theme-quick .pie-legend .series-2 .swatch {
+  fill: #eeeeee;
+  background: #eeeeee;
+}
+
+.theme-quick .pie-legend .series-3 .swatch {
+  fill: #aaaab6;
+  background: #aaaab6;
+}
+
+.theme-quick .pie-legend .series-4 .swatch {
+  fill: #333340;
+  background: #333340;
+}
+
+.theme-quick .pie-legend .series-5 .swatch {
+  fill: #0024ba;
+  background: #0024ba;
+}
+
+.theme-quick .pie-legend .series-6 .swatch {
+  fill: #36cc60;
+  background: #36cc60;
+}
+
+.theme-quick .data .line.series-1 {
+  stroke: #00b9e7;
+}
+
+.theme-quick .data .line.series-2 {
+  stroke: #aaaab6;
+}
+
+.theme-quick .data .line.series-3 {
+  stroke: #4e4e5c;
+}
+
+.theme-quick .data .line.series-4 {
+  stroke: #0024ba;
+}
+
+.theme-quick .data .line.series-5 {
+  stroke: #36cc60;
+}
+
+.theme-quick .data .area {
+  fill: none;
+}
+
+.theme-quick .data .bar.series-1 {
+  fill: #00b9e7;
+}
+
+.theme-quick .data .bar.series-2 {
+  fill: #aaaab6;
+}
+
+.theme-quick .data .bar.series-3 {
+  fill: #4e4e5c;
+}
+
+.theme-quick .data .bar.series-4 {
+  fill: #0024ba;
+}
+
+.theme-quick .data .bar.series-5 {
+  fill: #36cc60;
+}
+
+.theme-quick .data .arc path.series-1 {
+  fill: #00b9e7;
+  stroke: #00b9e7;
+}
+
+.theme-quick .data .arc path.series-2 {
+  fill: #eeeeee;
+  stroke: #eeeeee;
+}
+
+.theme-quick .data .arc path.series-3 {
+  fill: #aaaab6;
+  stroke: #aaaab6;
+}
+
+.theme-quick .data .arc path.series-4 {
+  fill: #333340;
+  stroke: #333340;
+}
+
+.theme-quick .data .arc path.series-5 {
+  fill: #0024ba;
+  stroke: #0024ba;
+}
+
+.theme-quick .data .arc path.series-6 {
+  fill: #36cc60;
+  stroke: #36cc60;
+}
+
+.theme-quick.variety-table .table-bar {
+  background-color: #00b9e7;
+}
+
+.theme-quick .tooltip.intersect {
+  fill: white;
+  stroke-width: 3;
+}
+
+.theme-quick .tooltip.series-value {
+  color: white;
+  position: absolute;
+  padding: 2px 5px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.theme-quick .tooltip.tip-value {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  padding: 2px 5px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.theme-quick .tooltip.gridline {
+  stroke: #ACACAC;
+  stroke-width: 3px;
+  stroke-dasharray: 3 3;
+}
+
+.theme-quick.variety-line .tooltip.intersect-1 {
+  stroke: #00b9e7;
+}
+
+.theme-quick.variety-line .tooltip.intersect-2 {
+  stroke: #aaaab6;
+}
+
+.theme-quick.variety-line .tooltip.intersect-3 {
+  stroke: #4e4e5c;
+}
+
+.theme-quick.variety-line .tooltip.intersect-4 {
+  stroke: #0024ba;
+}
+
+.theme-quick.variety-line .tooltip.intersect-5 {
+  stroke: #36cc60;
+}
+
+.theme-quick.variety-line .tooltip.series-value-1 {
+  background: rgba(0, 185, 231, 0.8);
+}
+
+.theme-quick.variety-line .tooltip.series-value-2 {
+  background: rgba(170, 170, 182, 0.8);
+}
+
+.theme-quick.variety-line .tooltip.series-value-3 {
+  background: rgba(78, 78, 92, 0.8);
+}
+
+.theme-quick.variety-line .tooltip.series-value-4 {
+  background: rgba(0, 36, 186, 0.8);
+}
+
+.theme-quick.variety-line .tooltip.series-value-5 {
+  background: rgba(54, 204, 96, 0.8);
+}
+
+.theme-quick.variety-stackedVbar .tooltip.intersect-1, .theme-quick.variety-stackedHbar .tooltip.intersect-1, .theme-quick.variety-bar .tooltip.intersect-1, .theme-quick.variety-hbar .tooltip.intersect-1 {
+  stroke: #00b9e7;
+}
+
+.theme-quick.variety-stackedVbar .tooltip.intersect-2, .theme-quick.variety-stackedHbar .tooltip.intersect-2, .theme-quick.variety-bar .tooltip.intersect-2, .theme-quick.variety-hbar .tooltip.intersect-2 {
+  stroke: #aaaab6;
+}
+
+.theme-quick.variety-stackedVbar .tooltip.intersect-3, .theme-quick.variety-stackedHbar .tooltip.intersect-3, .theme-quick.variety-bar .tooltip.intersect-3, .theme-quick.variety-hbar .tooltip.intersect-3 {
+  stroke: #4e4e5c;
+}
+
+.theme-quick.variety-stackedVbar .tooltip.intersect-4, .theme-quick.variety-stackedHbar .tooltip.intersect-4, .theme-quick.variety-bar .tooltip.intersect-4, .theme-quick.variety-hbar .tooltip.intersect-4 {
+  stroke: #0024ba;
+}
+
+.theme-quick.variety-stackedVbar .tooltip.intersect-5, .theme-quick.variety-stackedHbar .tooltip.intersect-5, .theme-quick.variety-bar .tooltip.intersect-5, .theme-quick.variety-hbar .tooltip.intersect-5 {
+  stroke: #36cc60;
+}
+
+.theme-quick.variety-stackedVbar .tooltip.series-value-1, .theme-quick.variety-stackedHbar .tooltip.series-value-1, .theme-quick.variety-bar .tooltip.series-value-1, .theme-quick.variety-hbar .tooltip.series-value-1 {
+  background: rgba(0, 185, 231, 0.8);
+}
+
+.theme-quick.variety-stackedVbar .tooltip.series-value-2, .theme-quick.variety-stackedHbar .tooltip.series-value-2, .theme-quick.variety-bar .tooltip.series-value-2, .theme-quick.variety-hbar .tooltip.series-value-2 {
+  background: rgba(170, 170, 182, 0.8);
+}
+
+.theme-quick.variety-stackedVbar .tooltip.series-value-3, .theme-quick.variety-stackedHbar .tooltip.series-value-3, .theme-quick.variety-bar .tooltip.series-value-3, .theme-quick.variety-hbar .tooltip.series-value-3 {
+  background: rgba(78, 78, 92, 0.8);
+}
+
+.theme-quick.variety-stackedVbar .tooltip.series-value-4, .theme-quick.variety-stackedHbar .tooltip.series-value-4, .theme-quick.variety-bar .tooltip.series-value-4, .theme-quick.variety-hbar .tooltip.series-value-4 {
+  background: rgba(0, 36, 186, 0.8);
+}
+
+.theme-quick.variety-stackedVbar .tooltip.series-value-5, .theme-quick.variety-stackedHbar .tooltip.series-value-5, .theme-quick.variety-bar .tooltip.series-value-5, .theme-quick.variety-hbar .tooltip.series-value-5 {
+  background: rgba(54, 204, 96, 0.8);
+}
+
+.theme-quick.variety-table.with-subtitle .titles-top, .theme-quick.variety-table.with-title .titles-top {
+  padding-bottom: 15px;
+}
+
+.theme-quick.variety-table .table-chart {
+  margin: 0px;
+  font: 11px/15px sans-serif;
+  -webkit-text-size-adjust: none;
+}
+
+.theme-quick.variety-table .table-header .table-cell {
+  cursor: pointer;
+  white-space: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #231F20;
+  padding-bottom: 10px;
+}
+
+.theme-quick.variety-table .table-body {
+  position: relative;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.theme-quick.variety-table .table-body .table-row {
+  position: absolute;
+  width: 100%;
+  padding: 9px 0;
+}
+
+.theme-quick.variety-table .table-row {
+  white-space: nowrap;
+}
+
+.theme-quick.variety-table .table-body .table-row .table-label {
+  white-space: normal;
+}
+
+.theme-quick.variety-table .table-cell {
+  display: inline-block;
+  position: relative;
+}
+
+.theme-quick.variety-table .table-bar {
+  position: absolute;
+}
+
+.theme-quick.variety-table .table-label {
+  position: absolute;
+  left: 0px;
+  text-align: right;
+}
+
+.theme-quick.variety-table .table-symbol {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+}
+
+.theme-quick.variety-table div.table-unit-after {
+  display: inline-block;
+}
+
+.theme-quick.variety-table .table-header .table-label {
+  position: static;
+}
+
+.theme-quick.variety-table .series-0 .table-label,
+.theme-quick.variety-table .table-label.as-text,
+.theme-quick.variety-table .table-label.has-bar {
+  text-align: left;
+}
+
+.theme-quick.variety-table .table-header .table-cell-series {
+  text-align: right;
+}
+
+.theme-quick.variety-table .column-gap {
+  display: inline-block;
+  width: 12px;
+}
+
+.theme-quick.variety-table .table-body .table-unit-after.negative,
+.theme-quick.variety-table .table-body .table-symbol.negative,
+.theme-quick.variety-table .table-label.negative {
+  color: #ff433d;
+}
+
+.theme-quick.variety-table .table-body .table-unit-after.positive,
+.theme-quick.variety-table .table-body .table-symbol.positive,
+.theme-quick.variety-table .table-label.positive {
+  color: #1dcc92;
+}
+
+.theme-quick.variety-table.responsive .table-body .table-row:hover,
+.theme-quick.variety-table.responsive .table-body .table-row:hover {
+  font-weight: bold;
+}
+
+.theme-quick.variety-table.responsive .table-column-ascending .table-label:after {
+  content: "\0025B2";
+}
+
+.theme-quick.variety-table.responsive .table-column-descending .table-label:after {
+  content: "\0025BC";
+}
+
+.theme-quick.variety-table .table-chart .single-column {
+  display: none;
+}
+
+.theme-quick.variety-table .has-single-column .table-header {
+  display: none;
+}
+
+.theme-quick.variety-table .has-single-column .table-body {
+  display: none;
+}
+
+.theme-quick.variety-table .has-single-column .single-column {
+  display: block;
+}
+
+.theme-quick.variety-table .single-series .colon {
+  display: none;
+}
+
+.theme-quick.variety-table .single-series-header {
+  padding: 5px 0px;
+  border-top: 1px dotted #000;
+}
+
+.theme-quick.variety-table .single-category {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.theme-quick.variety-table .single-value {
+  display: inline-block;
+}
+
+.theme-quick.variety-table .single-column .table-label {
+  position: static;
+  text-align: left;
+}
+
+.theme-quick.variety-table .single-body {
+  padding-bottom: 10px;
+}
+
+.theme-quick.variety-table .series-header .table-label {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.theme-quick.variety-table .single-row .table-label {
+  display: inline-block;
+}
+
+.theme-quick.variety-table .single-row .table-label.value {
+  padding-left: 5px;
+}
+
+.theme-quick.variety-table .single-row .single-category.table-label {
+  white-space: nowrap;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.theme-quick.variety-table .single-row {
+  padding-bottom: 2px;
+}
+
+.theme-quick.variety-table .inline .single-row .table-label.single-value,
+.theme-quick.variety-table .inline .single-row .table-label.single-category {
+  display: inline;
+}
+
+.theme-quick.variety-table .inline .single-row .single-category.table-label {
+  white-space: normal;
+}
+
+.theme-quick.variety-table .inline .single-category {
+  padding-right: 5px;
+}
+
+.theme-quick.variety-table .inline .single-row .table-label,
+.theme-quick.variety-table .inline .colon {
+  display: inline;
+}
+
+.theme-quick.variety-table.without-titles .titles-top {
+  display: none;
+}
+
+.theme-quick.variety-table.without-titles .table-chart {
+  padding-top: 0px;
+}
+
+.theme-quick.variety-table div.table-unit-after,
+.theme-quick.variety-table .table-symbol,
+.theme-quick.variety-table .table-body .table-cell {
+  vertical-align: top;
+}
+
+.theme-quick.variety-table.brkpt-large.with-subtitle .titles-top, .theme-quick.variety-table.brkpt-large.with-title .titles-top {
+  padding-bottom: 30px;
+}
+
+.theme-quick.variety-table.brkpt-large .table-body {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.theme-quick.variety-table.brkpt-large .table-body .table-row {
+  padding: 14px 0;
+}
+
+.theme-quick.variety-table.brkpt-large .table-bar {
+  height: 30px;
+}
+
+.theme-quick.variety-table.brkpt-large .table-header .table-cell {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.theme-quick.variety-table.brkpt-large .table-bar {
+  height: 30px;
+}
+
+.theme-quick.variety-table.brkpt-large .table-label .as-symbol {
+  display: inline-block;
+  padding-left: 2px;
+}
+
+.theme-quick.variety-table.brkpt-large .column-gap {
+  width: 20px;
+}
+
+.theme-quick.variety-comparison .bar {
+  background: #dddddd;
+}
+
+.theme-quick.variety-comparison .category.latest .bar {
+  background: #00b9e7;
+}
+
+.theme-quick.variety-comparison .label-container .value {
+  color: #dddddd;
+}
+
+.theme-quick.variety-comparison .category.latest .label-container .value {
+  color: #00b9e7;
+}
+
+.theme-quick h1 {
+  font-family: "SupriaSans", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-size: 21px;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.theme-quick h1.title {
+  font-family: "SupriaSans", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 21px/24px;
+  font-weight: bold;
+  text-align: left;
+  color: #4d4d5c;
+}
+
+.theme-quick h2.subtitle {
+  -webkit-font-smoothing: antialiased;
+  font-family: "SupriaSans", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #4d4d5c;
+}
+
+.theme-quick.with-legend .legend {
+  display: inline-block;
+  font-family: "SupriaSans", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #878796;
+  line-height: 16px;
+}
+
+.theme-quick .y.axis .caption-bkgnd {
+  fill: white;
+}
+
+.theme-quick .vertical-axis .caption,
+.theme-quick .horizontal-axis .caption {
+  font-family: "SupriaSans", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  color: #878796;
+  line-height: 25px;
+}
+
+.theme-quick .footnote,
+.theme-quick .source {
+  font-family: "SupriaSans", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  color: #878796;
+  margin-right: 130px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.theme-quick .tip-contents {
+  font-family: "SupriaSans", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-weight: normal;
+  background: rgba(78, 78, 92, 0.7);
+}
+
+.theme-quick .nub {
+  fill: rgba(78, 78, 92, 0.7);
+  position: absolute;
+  width: 9px;
+  height: 9px;
+}
+
+.theme-quick .grid-lines {
+  border-color: #7C7C7C;
+}
+
+.theme-quick .scale-lines {
+  border-color: #fff;
+}
+
+.theme-quick .axis .domain, .theme-quick .axis .tick line {
+  stroke: #62626f;
+  stroke-width: 1px;
+}
+
+.theme-quick .axis text {
+  font-family: "SupriaSans", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  fill: #878796;
+  -webkit-font-smoothing: antialiased;
+}
+
+.theme-quick .axis.y .domain, .theme-quick .axis.y .tick line {
+  display: none;
+}
+
+.theme-quick.variety-stackedHbar .axis.x .domain, .theme-quick.variety-stackedHbar .axis.x .tick line, .theme-quick.variety-hbar .axis.x .domain, .theme-quick.variety-hbar .axis.x .tick line {
+  stroke: none;
+}
+
+.theme-quick.variety-pie .pie-legend, .theme-quick.variety-pie .labels {
+  font-family: "SupriaSans", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #4d4d5c;
+  -webkit-font-smoothing: antialiased;
+}
+
+.theme-quick.variety-pie .pie-legend .value, .theme-quick.variety-pie .labels .label-text .value {
+  font-family: "SupriaSans", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+}
+
+.theme-quick .swatch {
+  margin-right: 5px;
+}
+
+.theme-quick .swatch.circle-swatch {
+  display: none;
+}
+
+.theme-quick.variety-pie .label-circle {
+  fill: #4d4d5c;
+}
+
+.theme-quick.variety-pie .label-line {
+  stroke: #4d4d5c;
+}
+
+.theme-quick.variety-pie .pie-legend {
+  margin-bottom: 0px;
+  padding: 10px 20px 0px 20px;
+}
+
+.theme-quick.variety-pie .pie-legend .series {
+  display: inline-block;
+  padding: 2px 15px 4px 0;
+}
+
+.theme-quick .grid-x line,
+.theme-quick .grid-y line {
+  stroke-width: 1px;
+  stroke: #ededed;
+}
+
+.theme-quick.variety-line .grid-x line {
+  display: none;
+}
+
+.theme-quick .data .line {
+  stroke-width: 3px;
+}
+
+.theme-quick .data .line.na {
+  stroke-dasharray: 5,5;
+}
+
+.theme-quick.variety-comparison .label-container .value {
+  font-family: "SupriaSans", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.theme-quick.variety-comparison .summary {
+  font-family: "SupriaSans", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-weight: bold;
+  color: #4d4d5c;
+}
+
+.theme-quick.variety-comparison .label-container .description {
+  font-family: "SupriaSans", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.theme-quick.variety-table .table-chart {
+  margin: 0 -5px;
+}
+
+.theme-quick.variety-table .single-column .single-row {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.theme-quick.variety-table .table-body .table-row,
+.theme-quick.variety-table .table-header .table-row {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.theme-quick.variety-table .single-series-header,
+.theme-quick.variety-table .table-header .table-cell {
+  font-family: "SupriaSans", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  color: #4d4d5c;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.theme-quick.variety-table .single-column {
+  font-family: "SupriaSans", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #878796;
+}
+
+.theme-quick.variety-table .single-series-header,
+.theme-quick.variety-table .single-series {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.theme-quick.variety-table .table-header .table-row {
+  border-bottom: 1px solid #4d4d5c;
+}
+
+.theme-quick.variety-table .table-body .table-row {
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.theme-quick.variety-table .table-body {
+  font-family: "SupriaSans", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #878796;
+}
+
+.theme-quick.variety-table.brkpt-large .table-body div.table-unit-after, .theme-quick.variety-table.brkpt-large .table-body .table-symbol, .theme-quick.variety-table.brkpt-large .table-body .table-cell {
+  height: 24px;
+  line-height: 22px;
+  font-size: 25px;
+}
+
+.theme-quick.variety-table .table-bar {
+  height: 18px;
+}
+
+.theme-quick.variety-table.brkpt-large .table-bar {
+  height: 24px;
+}
+
+.theme-quick.variety-table.brkpt-large .table-chart {
+  margin: 0 -8px;
+}
+
+.theme-quick.variety-table.brkpt-large .single-column .single-row {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.theme-quick.variety-table.brkpt-large .table-body .table-row,
+.theme-quick.variety-table.brkpt-large .table-header .table-row {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.theme-quick.variety-table .table-body .table-row:hover .table-bar {
+  height: 19px;
+}
+
+.theme-quick.variety-table .table-body .table-row.highlight,
+.theme-quick.variety-table .single-series.highlight {
+  background-color: #e7f7fc;
+}
+
+.theme-quick.without-titles .viewport {
+  margin: 0px;
+}
+
+.theme-quick.without-titles .titles-top {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.theme-quick.without-titles .margin-bottom {
+  height: 0px;
+}
+
+.theme-quick.without-titles.with-title .legend {
+  padding-top: 0px;
+}
+
+.theme-quick.without-titles .titles-bottom {
+  padding: 0px !important;
+  margin: 0px !important;
+  min-height: 0;
+}
+
+.theme-quick .source,
+.theme-quick .footnote {
+  margin-right: 160px;
+}
+
+.theme-quick .logo {
+  bottom: 20px;
+}
+
+.theme-quick.with-footnote .source {
+  margin-right: 0;
+}
+
+.theme-quick .titles-bottom {
+  min-height: 50px;
+}
+
+.theme-quick.without-titles .titles-bottom {
+  min-height: 0px;
+}
+
+.theme-quick .logo {
+  position: absolute;
+  right: 25px;
+  margin: 0;
+  background: url(/gh/0nd1jyU39XQ/_/graphic/bloomberg/toaster/toaster-charts/image/viewlogo.svg);
+  width: 142px;
+  height: 14px;
+}
+
+.theme-quick.responsive.amp.with-title h1.title {
+  font-family: Arial, sans-serif;
+}
+
+.theme-quick.responsive.amp.variety-table .series-header, .theme-quick.responsive.amp.variety-table .single-column, .theme-quick.responsive.amp.variety-table .table-body .table-cell, .theme-quick.responsive.amp.variety-table .table-body .table-symbol, .theme-quick.responsive.amp.variety-table .table-body div.table-unit-after, .theme-quick.responsive.amp.variety-table .table-header .table-cell, .theme-quick.responsive.amp.with-subtitle h2.subtitle, .theme-quick.responsive.amp.with-legend .legend,
+.theme-quick.responsive.amp .vertical-axis .caption,
+.theme-quick.responsive.amp .horizontal-axis .caption,
+.theme-quick.responsive.amp .footnote,
+.theme-quick.responsive.amp .source,
+.theme-quick.responsive.amp .axis text,
+.theme-quick.responsive.amp .tip-contents,
+.theme-quick.responsive.amp .tooltip-overlay,
+.theme-quick.responsive.amp .tooltip {
+  font-family: Arial, sans-serif;
+}
+
+.theme-quick .logo {
+  background: url(/gh/0nd1jyU39XQ/_/graphic/bloomberg/toaster/toaster-charts/image/quicktakelogo.svg);
+}
+
+.theme-quick.size-large h1.title {
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.theme-quick.size-large h2.subtitle {
+  font-size: 20px;
+  line-height: 33px;
+}
+
+.theme-quick.size-large .axis text {
+  font-size: 18px;
+}
+
+.theme-quick.size-large.with-legend .legend {
+  font-size: 18px;
+}
+
+.theme-quick.size-large .grid-x line,
+.theme-quick.size-large .grid-y line {
+  stroke-width: 1px;
+  stroke: #d0d0d0;
+}
+
+.theme-quick.size-large .footnote,
+.theme-quick.size-large .source {
+  font-size: 15px;
+}
