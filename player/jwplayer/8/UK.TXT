@@ -1,0 +1,42 @@
+https://ssl.p.jwpcdn.com/player/v/8.11.5/jwplayer.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/freewheel.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/gapro.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/googima.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/jwplayer.controls.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/jwplayer.core.controls.html5.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/jwplayer.core.controls.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/jwplayer.core.controls.polyfills.html5.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/jwplayer.core.controls.polyfills.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/jwplayer.core.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/jwplayer.flash.swf
+https://ssl.p.jwpcdn.com/player/v/8.11.5/jwpsrv.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/polyfills.intersection-observer.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/polyfills.webvtt.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/provider.airplay.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/provider.cast.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/provider.flash.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/provider.hlsjs.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/provider.html5.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/provider.shaka.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/pximg.json *
+https://ssl.p.jwpcdn.com/player/v/8.11.5/related.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/vast.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/vr.js *
+https://ssl.p.jwpcdn.com/player/v/8.11.5/vttparser.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/jwplayer.vr.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/dai.js
+https://ssl.p.jwpcdn.com/player/v/8.11.5/jwplayer.compatibility.js
+
+https://developer.jwplayer.com/release-notes/jw-player/
+
+Sselfhost:
+修改 jwplayer.js ，替换
+//ssl.p.jwpcdn.com/player/v/8.11.5
+//a-1257226215.file.myqcloud.com/dist/jw/8.11.5
+
+KEY:
+<script>jwplayer.key="Wk+QInTzp1lQYg77Mlv25yewSvwGmBY2";</script><!--演示key可修改成自己的-->
+
+jwplayer8.X Enterprise Key 
+Expired Date 31/03/2071 
+KEY: nuQA/LutJfFXm+GR8z3b6sp8twuznC9K91jnpzgwt4M=
