@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="42px" viewBox="0 0 39 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>mail-envelope-open</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Subscribe-" transform="translate(-162.000000, -2403.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="Option-1" transform="translate(133.000000, 2374.000000)">
+                <g id="1492011672_icon-7-mail-envelope-open" transform="translate(29.000000, 29.000000)">
+                    <path d="M19.5,0 L39,17.1111111 L39,38.8981284 C39,40.6085341 37.6006176,42 35.874392,42 L3.12560798,42 C1.38803065,42 0,40.6112448 0,38.8981284 L0,17.1111111 L19.5,0 Z M14.82,31.1111111 L3.9,40.4444444 L35.1,40.4444444 L24.18,31.1111111 L14.82,31.1111111 Z M19.5,2.02222252 L2.34,17.1111111 L16.38,29.5555571 L22.62,29.5555571 L36.66,17.1111111 L19.5,2.02222252 Z M36.9488184,40.0169313 C37.251232,39.7317774 37.44,39.3293502 37.44,38.8889508 L37.44,28.7778087 L37.44,18.6666667 L24.96,29.5821397 L36.9488184,40.0169313 Z M2.0511816,40.0169313 L14.04,29.5821397 L1.56,18.6666667 L1.56,28.7778087 L1.56,38.8889508 C1.56,39.3293502 1.74876802,39.7317774 2.0511816,40.0169313 L2.0511816,40.0169313 L2.0511816,40.0169313 Z" id="mail-envelope-open"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
