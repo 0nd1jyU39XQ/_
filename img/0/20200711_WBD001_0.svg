@@ -1,6 +1,1 @@
-<?xml version="1.0" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" width="256" height="144" viewBox="0 0 256 144">
-<rect x="0" y="0" width="256" height="144" id="0" fill="rgb(97,53,106)" fill-opacity="1" />
-<circle cx="127" cy="130" r="53" id="1" fill="rgb(255,252,191)" fill-opacity="0.501961" />
-<circle cx="127" cy="4" r="56" id="2" fill="rgb(255,145,97)" fill-opacity="0.501961" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="144" baseProfile="tiny" version="1.2" viewBox="0 0 256 144"><rect id="0" width="256" height="144" x="0" y="0" fill="#61356A" fill-opacity="1"/><circle id="1" cx="127" cy="130" r="53" fill="#FFFCBF" fill-opacity=".502"/><circle id="2" cx="127" cy="4" r="56" fill="#FF9161" fill-opacity=".502"/></svg>
