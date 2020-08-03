@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" width="147" height="256" viewBox="0 0 147 256">
+<rect x="0" y="0" width="147" height="256" id="0" fill="rgb(238,242,243)" fill-opacity="1" />
+<circle cx="74" cy="76" r="21" id="1" fill="rgb(69,147,181)" fill-opacity="0.501961" />
+<circle cx="101" cy="67" r="26" id="2" fill="rgb(132,184,205)" fill-opacity="0.501961" />
+<circle cx="100" cy="77" r="16" id="3" fill="rgb(255,255,255)" fill-opacity="0.501961" />
+<circle cx="119" cy="146" r="66" id="4" fill="rgb(255,255,254)" fill-opacity="0.501961" />
+<circle cx="77" cy="65" r="12" id="5" fill="rgb(42,114,155)" fill-opacity="0.501961" />
+<circle cx="136" cy="209" r="12" id="6" fill="rgb(174,167,154)" fill-opacity="0.501961" />
+<circle cx="51" cy="87" r="20" id="7" fill="rgb(186,221,233)" fill-opacity="0.501961" />
+<circle cx="47" cy="42" r="32" id="8" fill="rgb(252,254,254)" fill-opacity="0.501961" />
+<circle cx="22" cy="131" r="34" id="9" fill="rgb(255,255,255)" fill-opacity="0.501961" />
+<circle cx="122" cy="69" r="10" id="10" fill="rgb(80,155,182)" fill-opacity="0.501961" />
+</svg>
