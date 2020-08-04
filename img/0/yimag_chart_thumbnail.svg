@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" width="196" height="256" viewBox="0 0 196 256">
+<rect x="0" y="0" width="196" height="256" id="0" fill="rgb(225,219,213)" fill-opacity="1" />
+<rect x="8" y="12" width="180" height="16" id="1" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<rect x="62" y="12" width="123" height="16" id="2" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<rect x="53" y="97" width="112" height="158" id="3" fill="rgb(255,255,255)" fill-opacity="0.501961" />
+<rect x="49" y="74" width="74" height="3" id="4" fill="rgb(239,0,0)" fill-opacity="0.501961" />
+<rect x="37" y="55" width="120" height="4" id="5" fill="rgb(242,0,0)" fill-opacity="0.501961" />
+<rect x="31" y="92" width="82" height="4" id="6" fill="rgb(243,0,0)" fill-opacity="0.501961" />
+<rect x="34" y="111" width="61" height="3" id="7" fill="rgb(233,0,0)" fill-opacity="0.501961" />
+<rect x="85" y="13" width="94" height="14" id="8" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<rect x="31" y="129" width="35" height="3" id="9" fill="rgb(235,0,0)" fill-opacity="0.501961" />
+<rect x="8" y="12" width="53" height="15" id="10" fill="rgb(0,0,2)" fill-opacity="0.501961" />
+<rect x="33" y="147" width="19" height="3" id="11" fill="rgb(242,0,0)" fill-opacity="0.501961" />
+<rect x="26" y="28" width="122" height="27" id="12" fill="rgb(253,255,253)" fill-opacity="0.501961" />
+<rect x="187" y="1" width="8" height="254" id="13" fill="rgb(254,255,254)" fill-opacity="0.501961" />
+</svg>
