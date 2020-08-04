@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" width="97" height="256" viewBox="0 0 97 256">
+<rect x="0" y="0" width="97" height="256" id="0" fill="rgb(219,207,193)" fill-opacity="1" />
+<circle cx="60" cy="64" r="25" id="1" fill="rgb(23,28,38)" fill-opacity="0.501961" />
+<rect x="1" y="4" width="95" height="8" id="2" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<circle cx="59" cy="141" r="28" id="3" fill="rgb(249,135,93)" fill-opacity="0.501961" />
+</svg>
