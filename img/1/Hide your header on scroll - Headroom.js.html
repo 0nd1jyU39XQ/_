@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)https://wicky.nillia.ms/headroom.js/ -->
+<html class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Hide your header on scroll - Headroom.js</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./Hide your header on scroll - Headroom.js_files/main.css">
+    <meta name="description" content="Headroom.js is a lightweight, pure JS widget for hiding elements until needed. Give your pages some headroom">
+    <meta property="og:title" content="Headroom.js - Give your pages some headroom. Hide your header until you need it.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://wicky.nillia.ms/headroom.js/">
+    <meta name="twitter:creator" content="@WickyNilliams">
+    <meta name="twitter:card" content="summary">
+
+    <script type="text/javascript" async="" src="./Hide your header on scroll - Headroom.js_files/ga.js.下载"></script><script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-37435578-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+<link type="text/css" rel="stylesheet" charset="UTF-8" href="./Hide your header on scroll - Headroom.js_files/translateelement.css"></head>
+<body>
+
+<header id="header" class="header header--fixed hide-from-print headroom headroom--not-bottom headroom--pinned headroom--top" role="banner">
+    <div class="container">
+
+        <nav id="nav" class="nav-wrapper" role="navigation">
+            <ul class="nav">
+                <li class="nav__item ">
+                    <a class="header__link" href="https://www.github.com/WickyNilliams/headroom.js">
+                        <span aria-hidden="true" class="icon icon--gh"></span>
+                        <span class="complimentary push--left">GitHub</span>
+                    </a>
+                </li>
+                <li class="nav__item ">
+                    <a class="header__link" href="http://www.twitter.com/WickyNilliams">
+                        <span aria-hidden="true" class="icon icon--tw"></span>
+                        <span class="complimentary push--left">@WickyNilliams</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <a href="http://wicky.nillia.ms/headroom.js/" class="brand header__link">
+            <b class="brand__forename">Headroom</b><b class="brand__surname">.js</b>
+        </a>
+    </div>
+</header>
+
+<article>
+<header class="feature">
+    <div class="container container--wide">
+        <h1 class="feature__title">Headroom.js</h1>
+        <p class="feature__subtitle">Give your pages some headroom. Hide your header&nbsp;until&nbsp;you&nbsp;need&nbsp;it.</p>
+    </div>
+</header>
+
+<div class="container block main" role="main">
+
+<h2>Installation</h2>
+<p>Download here<span class="complimentary"> (sizes shown are after gzipping)</span>:</p>
+
+<div class="downloads island">
+    <div class="grid">
+        <div class="grid__item one-half"><a class="btn btn--secondary btn--full" href="https://unpkg.com/headroom.js">Development <span class="complimentary subdued">(2.78KB)</span></a></div>
+        <div class="grid__item one-half"><a class="btn btn--secondary btn--full" href="https://unpkg.com/headroom.js/dist/headroom.min.js">Production <span class="complimentary subdued">(1.38KB)</span></a></div>
+    </div>
+</div>
+<p>Or install via npm/yarn:</p>
+<pre class="language-shell"><code>npm install headroom.js --save
+yarn add headroom.js
+</code></pre>
+
+<h2>What's it all about?</h2>
+
+<p>Headroom.js is a lightweight, high-performance JS widget (with no dependencies!) that allows you to react to the user's scroll. The header on this site is a living example, it slides out of view when scrolling down and slides back in when scrolling up.</p>
+
+<h3>Why use it?</h3>
+
+<p>Fixed headers are a popular approach for keeping the primary navigation in close proximity to the user. This can reduce the effort required for a user to quickly navigate a site, but they are not without problems… </p>
+
+<p>Large screens are usually landscape-oriented, meaning less vertical than horizontal space. A fixed header can therefore occupy a significant portion of the content area. Small screens are typically used in a portrait orientation. Whilst this results in more vertical space, because of the overall height of the screen a meaningfully-sized header can still be quite imposing.</p>
+
+<p>Headroom.js allows you to bring elements into view when appropriate, and give focus to your content the rest of the time.</p>
+
+<h3>How does it work?</h3>
+
+<p>At it's most basic headroom.js simply adds and removes CSS classes from an element in response to a scroll event:</p>
+
+<pre class=" language-markup"><code class=" language-markup"><span class="token comment" spellcheck="true">&lt;!-- initially --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>headroom<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment" spellcheck="true">&lt;!-- scrolling down --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>headroom headroom--unpinned<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment" spellcheck="true">&lt;!-- scrolling up --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>headroom headroom--pinned<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+
+<p>Relying on CSS classes affords headroom.js incredible flexibility. The choice of what to do when scrolling up or down is now entirely yours - anything you can do with CSS you can do in response to the user's scroll.</p>
+
+<h2>Usage</h2>
+
+<p>Using headroom.js is really simple. It has a pure JS API, plus an optional jQuery plugin and AngularJS directive.</p>
+
+<p>Include the <code>headroom.js</code> script in your page, and then:</p>
+<pre class=" language-javascript"><code class=" language-javascript"><span class="token comment" spellcheck="true">// if you're using a bundler, first import:
+</span>import Headroom from <span class="token string">"headroom.js"</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">
+// grab an element
+</span><span class="token keyword">var</span> myElement <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector<span class="token punctuation">(</span></span><span class="token string">"header"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">
+// construct an instance of Headroom, passing the element
+</span><span class="token keyword">var</span> headroom  <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Headroom</span><span class="token punctuation">(</span>myElement<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">
+// initialise
+</span>headroom<span class="token punctuation">.</span><span class="token function">init<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+
+<h3>Options</h3>
+
+<p>Headroom.js can also accept an options object to alter the way it behaves. You can see the default options by inspecting <code>Headroom.options</code>. The full structure of an options object is as follows:</p>
+
+<pre class=" language-javascript"><code class=" language-javascript"><span class="token keyword">var</span> options <span class="token operator">=</span> <span class="token punctuation">{</span>
+   <span class="token comment" spellcheck="true"> // vertical offset in px before element is first unpinned
+</span>    offset <span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+   <span class="token comment" spellcheck="true"> // scroll tolerance in px before state changes
+</span>    tolerance <span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+   <span class="token comment" spellcheck="true"> // or you can specify tolerance individually for up/down scroll
+</span>    tolerance <span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        up <span class="token punctuation">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
+        down <span class="token punctuation">:</span> <span class="token number">0</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   <span class="token comment" spellcheck="true"> // css classes to apply
+</span>    classes <span class="token punctuation">:</span> <span class="token punctuation">{</span>
+       <span class="token comment" spellcheck="true"> // when element is initialised
+</span>        initial <span class="token punctuation">:</span> <span class="token string">"headroom"</span><span class="token punctuation">,</span>
+       <span class="token comment" spellcheck="true"> // when scrolling up
+</span>        pinned <span class="token punctuation">:</span> <span class="token string">"headroom--pinned"</span><span class="token punctuation">,</span>
+       <span class="token comment" spellcheck="true"> // when scrolling down
+</span>        unpinned <span class="token punctuation">:</span> <span class="token string">"headroom--unpinned"</span><span class="token punctuation">,</span>
+       <span class="token comment" spellcheck="true"> // when above offset
+</span>        top <span class="token punctuation">:</span> <span class="token string">"headroom--top"</span><span class="token punctuation">,</span>
+       <span class="token comment" spellcheck="true"> // when below offset
+</span>        notTop <span class="token punctuation">:</span> <span class="token string">"headroom--not-top"</span><span class="token punctuation">,</span>
+       <span class="token comment" spellcheck="true"> // when at bottom of scoll area
+</span>        bottom <span class="token punctuation">:</span> <span class="token string">"headroom--bottom"</span><span class="token punctuation">,</span>
+       <span class="token comment" spellcheck="true"> // when not at bottom of scroll area
+</span>        notBottom <span class="token punctuation">:</span> <span class="token string">"headroom--not-bottom"</span><span class="token punctuation">,</span>
+       <span class="token comment" spellcheck="true"> // when frozen method has been called
+</span>        frozen<span class="token punctuation">:</span> <span class="token string">"headroom--frozen"</span><span class="token punctuation">,</span>
+       <span class="token comment" spellcheck="true"> // multiple classes are also supported with a space-separated list
+</span>        pinned<span class="token punctuation">:</span> <span class="token string">"headroom--pinned foo bar"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   <span class="token comment" spellcheck="true"> // element to listen to scroll events on, defaults to `window`
+</span>    scroller <span class="token punctuation">:</span> someElement<span class="token punctuation">,</span>
+   <span class="token comment" spellcheck="true"> // callback when pinned, `this` is headroom object
+</span>    onPin <span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+   <span class="token comment" spellcheck="true"> // callback when unpinned, `this` is headroom object
+</span>    onUnpin <span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+   <span class="token comment" spellcheck="true"> // callback when above offset, `this` is headroom object
+</span>    onTop <span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+   <span class="token comment" spellcheck="true"> // callback when below offset, `this` is headroom object
+</span>    onNotTop <span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+   <span class="token comment" spellcheck="true"> // callback when at bottom of page, `this` is headroom object
+</span>    onBottom <span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+   <span class="token comment" spellcheck="true"> // callback when moving away from bottom of page, `this` is headroom object
+</span>    onNotBottom <span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">
+// pass options as the second argument to the constructor
+</span><span class="token comment" spellcheck="true">// supplied options are merged with defaults
+</span><span class="token keyword">var</span> headroom <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Headroom</span><span class="token punctuation">(</span>element<span class="token punctuation">,</span> options<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+
+<h3>CSS</h3>
+
+<p>
+    Recall that headroom.js works by adding and removing CSS classes in reaction to the user's scroll. This means you will need some CSS to achieve the effect you want. For example, you could hide the header on scroll down, and reveal it again on scroll up. The most basic CSS for this would be:
+</p>
+
+<pre class=" language-css"><code class=" language-css"><span class="token selector">.headroom--pinned </span><span class="token punctuation">{</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.headroom--unpinned </span><span class="token punctuation">{</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+
+<p>
+    Whilst this is functional, it's a bit of a jarring effect. We could do better with some CSS transitions to smoothly move the header in and out of view:
+</p>
+
+<pre class=" language-css"><code class=" language-css"><span class="token comment" spellcheck="true">/**
+ * Note: I have omitted any vendor-prefixes for clarity.
+ * Adding them is left as an exercise for the reader.
+ */</span>
+<span class="token selector">.headroom </span><span class="token punctuation">{</span>
+    <span class="token property">will-change</span><span class="token punctuation">:</span> transform<span class="token punctuation">;</span>
+    <span class="token property">transition</span><span class="token punctuation">:</span> transform 200ms linear<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.headroom--pinned </span><span class="token punctuation">{</span>
+    <span class="token property">transform</span><span class="token punctuation">:</span> translateY(0%)<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.headroom--unpinned </span><span class="token punctuation">{</span>
+    <span class="token property">transform</span><span class="token punctuation">:</span> translateY(-100%)<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+
+
+<p>
+    Notice that we're transitioning the <code>transform</code> property. The reason to transition this is because <a href="http://www.html5rocks.com/en/tutorials/speed/high-performance-animations/">transforms are much cheaper to animate</a> compared to <code>top</code>, <code>bottom</code> etc. Another benefit is that translation percentage values are relative to the dimensions of the element, whereas <code>top</code> etc. percentage values are relative to the dimensions of the viewport. This means you don't need to know the height of the element in advance, <code>-100%</code> will always slide the element entirely out of view.
+</p>
+
+<p>
+    The CSS above is enough to get you started, but feel free to try something entirely different. Let you imagination run wild. But not <em>too wild</em>, your users won't appreciate that.
+</p>
+
+<h3>Methods</h3>
+
+<p>The following methods are available to be called on a headroom instance:</p>
+
+<ul>
+    <li>
+        <code>destroy()</code>: destroy the headroom instance, removing event listeners and any classes added
+    </li>
+    <li>
+        <code>pin()</code>: forcibly set the headroom instance's state to pinned
+    </li>
+    <li>
+        <code>unpin()</code>: forcibly set the headroom instance's state to unpinned
+    </li>
+    <li>
+        <code>freeze()</code>: freeze the headroom instance's state (pinned or unpinned), and no longer respond to scroll events
+    </li>
+    <li>
+        <code>unfreeze()</code>: resume responding to scroll events
+    </li>
+</ul>
+
+<h3>Dealing with anchor links</h3>
+
+<p>Clicking on anchor links (links within the same page) causes scrolling of the page. If this causes a scroll upwards, Headroom will pin the header. This can cause the linked element to be obscured by the header.</p>
+<p>To avoid this problem we can define <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding"><code>scroll-padding</code></a> in CSS, which is designed for just this purpose:</p>
+<pre class=" language-css"><code class=" language-css"><span class="token selector">html,
+body </span><span class="token punctuation">{</span>
+    <span class="token property">scroll-padding-top</span><span class="token punctuation">:</span> 65px<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">/* set to the height of your header */</span>
+<span class="token punctuation">}</span></code></pre>
+
+<h3>Usage with jQuery</h3>
+<p>Include the <code>headroom.js</code> and <code>jQuery.headroom.js</code> scripts in your page, and then:</p>
+<pre class=" language-javascript"><code class=" language-javascript"><span class="token comment" spellcheck="true">// simple as this!
+</span><span class="token comment" spellcheck="true">// NOTE: init() is implicitly called with the plugin
+</span>$<span class="token punctuation">(</span><span class="token string">"#header"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">headroom<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">
+// or with options
+</span>$<span class="token punctuation">(</span><span class="token string">"#header"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">headroom<span class="token punctuation">(</span></span>options<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>The plugin also offers a data-* API if you prefer a declarative approach.</p>
+
+<pre class=" language-markup"><code class=" language-markup"><span class="token comment" spellcheck="true">&lt;!-- selects $("[data-headroom]") --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span> <span class="token attr-name">data-headroom</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment" spellcheck="true">&lt;!-- or with options --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span> <span class="token attr-name">data-headroom</span> <span class="token attr-name">data-tolerance</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>5<span class="token punctuation">"</span></span> <span class="token attr-name">data-offset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>205<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+
+<h3>Usage with AngularJS</h3>
+<p>Include the <code>headroom.js</code> and <code>angular.headroom.js</code> scripts in your page, and require the <code>headroom</code> module in your AngularJS application module. Then:</p>
+<pre class=" language-markup"><code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span> <span class="token attr-name">headroom</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment" spellcheck="true">&lt;!-- or --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>headroom</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>headroom</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment" spellcheck="true">&lt;!-- or with options --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>headroom</span> <span class="token attr-name">tolerance</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span> <span class="token attr-name">offset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span> <span class="token attr-name">scroller</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>.my-scroller<span class="token punctuation">"</span></span> <span class="token attr-name">classes</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>{pinned:'headroom--pinned',unpinned:'headroom--unpinned',initial:'headroom'}<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>headroom</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+
+
+<h2>Examples</h2>
+<p>
+    Head over to the <a href="https://wicky.nillia.ms/headroom.js/playroom/">headroom.js playroom</a> if you want see some example uses. There you can tweak all of headroom's options and try out various CSS effects in an interactive demo.
+</p>
+
+<h2>Browser support</h2>
+<p>
+    Headroom.js is dependent on the following browser APIs:
+</p>
+<ul>
+    <li><a href="http://caniuse.com/#feat=requestanimationframe"><code>requestAnimationFrame</code></a></li>
+    <li><a href="http://caniuse.com/#feat=classlist"><code>classList</code></a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind#Browser_compatibility"><code>Function.prototype.bind</code></a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#Browser_compatibility"><code>Object.assign</code></a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys#Browser_compatibility"><code>Object.keys</code></a></li>
+</ul>
+<p>
+    All of these APIs are capable of being polyfilled, so headroom.js can work with less-capable browsers if desired. Check the linked resources above to determine if you must polyfill to achieve your desired level of browser support.
+</p>
+<p>
+    If you do not want to polyfill each of the above APIs, you can test for browser support before initialising. This avoids errors in older browsers and treats headroom.js as a progressive enhancement:
+</p>
+<pre class=" language-javascript"><code class=" language-javascript"><span class="token keyword">if</span><span class="token punctuation">(</span>Headroom<span class="token punctuation">.</span>cutsTheMustard<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> hr <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Headroom</span><span class="token punctuation">(</span>element<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    hr<span class="token punctuation">.</span><span class="token function">init<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<h2>Changelog</h2>
+<h3 id="v0.11.0">v0.11.0 <time class="subdued">(2020-01-16)</time></h3>
+<ul>
+    <li>Feature: <a href="https://github.com/WickyNilliams/headroom.js/pull/357">support multiple classes</a> (thanks to <a href="https://github.com/hacknug">Nestor Vera</a>)</li>
+</ul>
+<h3 id="v0.10.4">v0.10.4 <time class="subdued">(2020-01-09)</time></h3>
+<ul>
+    <li>Bugfix: <a href="https://github.com/WickyNilliams/headroom.js/pull/356">ensure top/bottom classes are added on page load</a></li>
+</ul>
+<h3 id="v0.10.3">v0.10.3 <time class="subdued">(2019-09-18)</time></h3>
+<ul>
+    <li>Bugfix: <a href="https://github.com/WickyNilliams/headroom.js/pull/341">scroll-y values were not rounded, causing some calculations to be off</a></li>
+    <li>Bugfix: <a href="https://github.com/WickyNilliams/headroom.js/pull/343">incorrect logic for calculating top state</a></li>
+</ul>
+<h3 id="v0.10.2">v0.10.2 <time class="subdued">(2019-09-13)</time></h3>
+<ul>
+    <li>Bugfix: <a href="https://github.com/WickyNilliams/headroom.js/pull/337">not correctly merging user-supplied classes and defaults</a></li>
+</ul>
+<h3 id="v0.10.0">v0.10.0 <time class="subdued">(2019-09-11)</time></h3>
+<ul>
+    <li>Community: <a href="https://github.com/hacknug">hacknug</a> has kindly offered to assist in project maintenance</li>
+    <li>Performance: <a href="https://github.com/WickyNilliams/headroom.js/pull/288">switch to passive scroll event listeners</a> (thanks to <a href="https://github.com/nedbaldessin">Ned Baldessin</a>)</li>
+    <li>Feature: <a href="https://github.com/WickyNilliams/headroom.js/pull/309">Add freeze/unfreeze methods</a> (thanks to <a href="https://github.com/andreivictor">Andrei Victor Bulearca</a>)</li>
+    <li>Housekeeping: <a href="https://github.com/WickyNilliams/headroom.js/pull/324">modernise codebase and toolings</a></li>
+    <li>Bugfix: <a href="https://github.com/WickyNilliams/headroom.js/pull/326">incorrectly detecting scroll to bottom on non-window scrollers</a></li>
+    <li>Feature: <a href="https://github.com/WickyNilliams/headroom.js/pull/318">support importing on server for SSR</a> (thanks to <a href="https://github.com/r00dY">Andrzej</a>)</li>
+    <li>Bugfix: <a href="https://github.com/WickyNilliams/headroom.js/issues/329">support using an iframe's window as scroller</a></li>
+    <li>Performance: <a href="https://github.com/WickyNilliams/headroom.js/pull/330">optimise and reduce bundle size</a></li>
+</ul>
+
+<h3 id="v0.9.4">v0.9.4 <time class="subdued">(2017-07-05)</time></h3>
+<ul>
+    <li>Correctly remove all classes on destroy (thanks to <a href="https://github.com/sweetroll">sweetroll</a>)</li>
+</ul>
+<h3 id="v0.9.3">v0.9.3 <time class="subdued">(2016-04-15)</time></h3>
+<ul>
+    <li>Correctly destroy headroom instance in angular directive (thanks <em>again</em> to <a href="https://github.com/websirnik">Nikita Korotaev</a>)</li>
+</ul>
+<h3 id="v0.9.2">v0.9.2 <time class="subdued">(2016-04-15)</time></h3>
+<ul>
+    <li>Fix bugs with angular directive (thanks to <a href="https://github.com/websirnik">Nikita Korotaev</a>)</li>
+</ul>
+<h3 id="v0.9.1">v0.9.1 <time class="subdued">(2016-04-13)</time></h3>
+<ul>
+    <li>Add minified files to bower package</li>
+</ul>
+<h3 id="v0.9.0">v0.9.0 <time class="subdued">(2016-04-13)</time></h3>
+<ul>
+    <li>Improvements to angular directive (thanks to <a href="http://twitter.com/toddmotto">Todd Motto</a>)</li>
+    <li>Add bower.json to npm package</li>
+</ul>
+<h3 id="v0.8.0">v0.8.0 <time class="subdued">(2016-03-16)</time></h3>
+<ul>
+    <li>Now available on npm as <code>headroom.js</code>!</li>
+    <li>Fix attempting to use function binding before feature test (thanks to <a href="https://github.com/rajivm">Rajiv Makhijani</a>)</li>
+    <li>Add classes and callbacks for scrolling to and from bottom of page</li>
+    <li>Improve element selection in angular directive (thanks to <a href="https://github.com/zwacky">Simon</a>)</li>
+    <li>Fix bug where some classes not removed on destroy (thanks to <a href="https://github.com/burkovsky">Anton Burkovsky</a>)</li>
+    <li>Added UMD support</li>
+    <li>Correctly destroy headroom instance in angular directive (thanks to <a href="https://github.com/kmc059000">Kenneth Crawford</a>)</li>
+</ul>
+<h3 id="v0.7.0">v0.7.0 <time class="subdued">(2014-08-04)</time></h3>
+<ul>
+    <li>Can receive scroll events from elements other than window (thanks to <a href="https://github.com/pandaiolo">Pandaiolo</a> and <a href="https://github.com/homerjam">homerjam</a>)</li>
+</ul>
+<h3 id="v0.6.0">v0.6.0 <time class="subdued">(2014-05-29)</time></h3>
+<ul>
+    <li>Up/down tolerance can be specified separately (thanks to <a href="https://twitter.com/chiplay">Chip Lay</a>)</li>
+</ul>
+
+<h3 id="v0.5.0">v0.5.0 <time class="subdued">(2014-03-03)</time></h3>
+<ul>
+    <li>Classes added above and below offset, with corresponding callbacks (thanks to <a href="https://twitter.com/andyhot">Andreas Andreou</a>)</li>
+</ul>
+<h3 id="v0.4.0">v0.4.0 <time class="subdued">(2014-01-10)</time></h3>
+<ul>
+    <li>Options merged with defaults, even with plain JS</li>
+    <li>Callbacks for pinning and unpinning</li>
+    <li>AngularJS plugin (thanks to <a href="https://twitter.com/pitrapen">Pitr Vernigorov</a>)</li>
+    <li>UX improvements (thanks to <a href="https://twitter.com/davidkaneda">David Kaneda</a>)</li>
+</ul>
+<h3 id="v0.3.11">v0.3.11</h3>
+<ul>
+    <li>Various bug fixes</li>
+</ul>
+
+<h2>License</h2>
+<p>
+    Licensed under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>.
+</p>
+
+<h2>Share this on:</h2>
+<div class="sharing island">
+<div class="grid">
+  <div class="grid__item one-third">
+    <a class="sharing__button btn btn--secondary btn--full" href="https://facebook.com/sharer.php?u=http://wicky.nillia.ms/headroom.js/">Facebook</a>
+  </div>
+  <div class="grid__item one-third">
+    <a class="sharing__button btn btn--secondary btn--full" href="https://twitter.com/intent/tweet?url=http://wicky.nillia.ms/headroom.js/&amp;text=Headroom.js.%20Give%20your%20pages%20some%20headroom&amp;via=WickyNilliams">Twitter</a>
+  </div>
+  <div class="grid__item one-third">
+    <a class="sharing__button btn btn--secondary btn--full" href="https://plus.google.com/share?url=http://wicky.nillia.ms/headroom.js/">Google+</a>
+  </div>
+</div>
+</div>
+
+</div>
+</article>
+
+<script src="./Hide your header on scroll - Headroom.js_files/main.js.下载"></script>
+<script>
+(function() {
+    var header = document.querySelector("#header");
+
+    var headroom = new Headroom(header, {
+        tolerance: {
+            down : 10,
+            up : 20
+        },
+        offset : 15,
+    });
+    headroom.init();
+
+}());
+</script><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="./Hide your header on scroll - Headroom.js_files/translate_24dp.png" width="20" height="20" alt="Google 翻译"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">原文</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">提供更好的翻译建议</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div>
+
+
+
+<div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
